@@ -9,6 +9,7 @@
     <?php if(count($contacts) > 0): ?>
       <table class="table" id="contacts-table">
         <thead>
+          <div class="Buffet">
           <tr>
             <th scope="col">#</th>
             <th scope="col">Nome</th>
@@ -16,6 +17,7 @@
             <th scope="col">Email</th>
             <th scope="col"></th>
           </tr>
+          </div>
         </thead>
         <tbody>
           <?php foreach($contacts as $contact): ?>
