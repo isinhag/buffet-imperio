@@ -20,23 +20,23 @@ body {
 }
 
 .destaque3 {
-    background-color: #c8b3a7;
+    background-color: #E8CFC1;
 }
 
 .destaque4 {
-    background-color: #b09c90;
+    background-color: #E8CFC1;
 }
 
 .secondary-bg-color {
-    background-color: #0d0d0d;
+    background-color: #343a40;
 }
 
 .light-bg-color {
-    background-color: #0d0d0d;
+    background-color: #343a40;
 }
 
 .dark-bg-color {
-    background-color: #0d0d0d;
+    background-color: #343a40;
 }
 
 
@@ -50,7 +50,7 @@ body {
 }
 
 .light-color {
-    color: #0d0d0d;
+    color: #343a40;
 }
 
 #navbar .navbar-nav {
@@ -278,7 +278,7 @@ body {
 
 /* Estilos de hover para links nos mini banners */
 #mini-banners .col-12 a:hover {
-    color: #0d0d0d;
+    color: #343a40;
 }
 
 /* Estilos especifico para o primeiro mini banner */
@@ -288,7 +288,7 @@ body {
 
 /* Estilos especifico para o terceiro mini banner */
 #mini-banners #mini-banner-3 a {
-    color: #0d0d0d;
+    color: #343a40;
 }
 
 /* Estilos de hover especifico para o terceiro mini banner */
@@ -393,7 +393,7 @@ body {
 
 /* Define cor de fundo , espaçamento interno e margens para o banner */
 #bottom-banner {
-    background-color: #0d0d0d;
+    background-color: #343a40;
     padding: 6em;
     margin-bottom: 4em;
     text-align: center;
@@ -433,7 +433,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #0d0d0d;
+    background-color: #343a40;
 }
 
 
@@ -469,7 +469,7 @@ body {
     height: 225px;
     cursor: pointer;
     transition: .5s;
-    border: 3px solid #0d0d0d;
+    border: 3px solid #343a40;
 }
 
 #gallery .image-container:hover {
@@ -561,7 +561,7 @@ body {
 
 #newsletter-container {
     background-color: #e8cfc1;
-    border-bottom: 1px solid #0d0d0d;
+    border-bottom: 1px solid #343a40;
     text-align: center;
     padding: 20px;
 }
@@ -576,7 +576,7 @@ body {
 }
 
 #news-form .btn {
-    color: #0d0d0d;
+    color: #343a40;
  }
 
 .img-circle img{

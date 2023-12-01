@@ -25,14 +25,18 @@
 </head>
 <body>
   <header>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
+    
+    <nav class="navbar navbar-expand-lg navbar-dark text-white bg-dark"  >
       <a class="navbar-brand" href="<?= $BASE_URL ?>index.php">
-      <img src="<?= $BASE_URL ?>img/logo2.svg" alt="Agenda" style="width: 80px;">
+        <img src="<?= $BASE_URL ?>img/logo.jpg" alt="Agenda">
       </a>
+      <div>
         <div class="navbar-nav">
           <a class="nav-link active" id="home-link" href="<?= $BASE_URL ?>index.php">Início</a>
           <a class="nav-link active" href="<?= $BASE_URL ?>create.php">Adicionar Cliente</a>
           <a class="nav-link active" id="home-link2" href="<?= $BASE_URL ?>home.html">Home</a>
+          
         </div>
+      </div>
     </nav>
   </header>

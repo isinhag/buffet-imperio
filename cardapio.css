@@ -8,35 +8,35 @@ body {
 }
 
 .primary-bg-color {
-    background-color: #252525;
+    background-color: #343a40;
 }
 
 .destaque {
-    background-color: #241D1D;
+    background-color: #343a40;
 }
 
 .destaque2 {
-    background-color: #3f2f2fb4;
+    background-color: #343a40;
 }
 
 .destaque3 {
-    background-color: #c8b3a7;
+    background-color: #E8CFC1;
 }
 
 .destaque4 {
-    background-color: #b09c90;
+    background-color: #E8CFC1;
 }
 
 .secondary-bg-color {
-    background-color: #0d0d0d;
+    background-color: #343a40;
 }
 
 .light-bg-color {
-    background-color: #0d0d0d;
+    background-color: #343a40;
 }
 
 .dark-bg-color {
-    background-color: #0d0d0d;
+    background-color: #343a40;
 }
 
 
@@ -45,12 +45,12 @@ body {
 }
 
 .secondary-color {
-    color: #000000;
+    color: #343a40;
     font-weight: bold;
 }
 
 .light-color {
-    color: #0d0d0d;
+    color: #343a40;
 }
 
 #navbar .navbar-nav {
@@ -183,7 +183,7 @@ body {
 
 #newsletter-container {
     background-color: #e8cfc1;
-    border-bottom: 1px solid #0d0d0d;
+    border-bottom: 1px solid #343a40;
     text-align: center;
     padding: 20px;
 }
@@ -198,7 +198,7 @@ body {
 }
 
 #news-form .btn {
-    color: #0d0d0d;
+    color: #343a40;
  }
 
 .img-circle img{

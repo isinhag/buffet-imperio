@@ -1,10 +1,16 @@
-.navbar-nav {
-display: flex;
-
+body{
+  background-color: #e8cfc190
+  
 }
 
+.Buffet{
+background-color: #343a40;
+}
+
+
 .navbar-brand img {
-  width: 90px;
+  width: 50px;
+
 }
 
 #main-title {
@@ -20,7 +26,7 @@ display: flex;
 
 #contacts-table thead {
   color: #FFF;
-  background-color: #007BFF;
+  background-color: #343a40;
 }
 
 .col-id {
@@ -42,7 +48,7 @@ display: flex;
 }
 
 .edit-icon {
-  color: #007BFF;
+  color: #343a40;
 }
 
 .delete-form {
@@ -65,7 +71,7 @@ display: flex;
 
 #msg {
   color: #155724;
-  background-color: #D4EDDA;
+  background-color: #C3E6CB;
   border: 1px solid #C3E6CB;
   padding: 10px;
   text-align: center;
@@ -91,8 +97,8 @@ display: flex;
 }
 
 #back-link {
-  border: 1px solid #007BFF;
-  color: #007BFF;
+  border: 1px solid #343a40;
+  color: #343a40;
   border-radius: 4px;
   padding: 5px;
 }
