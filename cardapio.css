@@ -1,240 +1,193 @@
 * {
     font-family: 'Montserrat', sans-serif;
+  }
+  
+  body {
+    background-color: #fae7dd;
+    color: #000000;
+  }
+  
+  .cardapio {
+      background-color: #0d0d0d1d;
+      padding: 300px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      
+  }
+  
+  .cardapioimg {
+      justify-content: center !important;
+      /* background-color: #D7C4BA; */
+
+      /* padding-bottom: 80px;
+      padding: 25px; */
+      
+  }
+
+.gastronomia {
+    background-color: #0d0d0d1d;
+      padding: 100px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      background-color: #efded5;
+
+      
 }
 
-body {
-    background-color: #e8cfc1;
-    color: #fff !important;
-}
-
-.primary-bg-color {
-    background-color: #343a40;
-}
-
-.destaque {
-    background-color: #343a40;
-}
-
-.destaque2 {
-    background-color: #343a40;
-}
-
-.destaque3 {
-    background-color: #E8CFC1;
-}
-
-.destaque4 {
-    background-color: #E8CFC1;
-}
-
-.secondary-bg-color {
-    background-color: #343a40;
-}
-
-.light-bg-color {
-    background-color: #343a40;
-}
-
-.dark-bg-color {
-    background-color: #343a40;
+.gastronomiaimg {
+    justify-content: center !important; 
+      padding-bottom: 15px;
+      /* padding: 25px; */
 }
 
 
-.primary-color {
-    color: #705545;
+.tituloimg {
+    
+    justify-content: center !important; 
+      padding-bottom: 10px;
 }
 
-.secondary-color {
-    color: #343a40;
-    font-weight: bold;
-}
 
-.light-color {
-    color: #343a40;
-}
+.osmelhorespratos {
+    padding-top: 100px;
+    padding-left: 90px;
+    padding-bottom: 75px;
+    color: #0d0d0d;
+    display: flex;
+    /* flex-direction: column; */
+    
+}  
 
-#navbar .navbar-nav {
-    flex-direction: row;
+
+
+  .casamentosimg {
+    justify-content: center !important; 
+      padding-bottom: 80px;
+      padding: 30px;
+      width: 80%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+  
+  }
+  .casimg {
+    top: 80%; 
+    left: 50%;
+  }
+  .pri2 {
+    padding-top: 50px;
+    padding-left: 90px;
+    padding-bottom: 5px;
+    color: #0d0d0d;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+  
+  
+  }
+  .teste {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
     justify-content: space-around;
-}
-
-#navbar .navbar-nav li {
-    margin-left: 1em;
-}
-
-#navbar a,
-#navbar button {
-    color: #fff;
-}
-
-#navbar li {
-    position: relative;
-}
-
-#navbar i {
+  
+  }
+  
+  .orca {
+    width: 40%;
+    height: 50px;
     font-size: 20px;
-}
-
-#navbar i:hover {
+    background-color: #a97c62af;
+    border-radius: 30px;
+    border: none;
+  }
+  .orca:hover {
+  
+    background-color: #e0b49d;
+  
+  }
+  
+  .primary-bg-color {
+    background-color: #252525;
+  }
+  
+  .destaque {
+    background-color: #241d1d;
+  }
+  
+  .secondary-bg-color {
+    background-color: #0d0d0d;
+  }
+  
+  .light-bg-color {
+    background-color: #0d0d0d;
+  }
+  
+  .dark-bg-color {
+    background-color: #0d0d0d;
+  }
+  
+  .primary-color {
     color: #E8CFC1;
-}
-
-#navbar span {
-    position: absolute;
-    top: -8px;
-    right: -8px;
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    background-color: #ef3636;
-    text-align: center;
-}
-
-#bag-item span {
-    left: 20px;
-}
-
-.navbar-brand {
+  }
+  
+  .secondary-color {
+    color: #E8CFC1;
+  }
+  
+  .light-color {
+    color: #0d0d0d;
+  }
+  
+  #navbar .navbar-nav {
+    flex-direction: row;
+    justify-content:space-around;
+  }
+  
+  #navbar .navbar-nav li {
+    margin-left: 1em;
+  }
+  
+  #navbar a,
+  #navbar button {
+    color: #fff;
+  }
+  
+  #navbar li {
+    position: relative;
+  }
+  
+  #navbar i {
+    font-size: 20px;
+  }
+  
+  #navbar i:hover {
+    color: #E8CFC1;
+  }
+  
+  
+  
+  
+  .navbar-brand {
     font-weight: 700;
     width: 100%;
     text-align: center;
-}
-
-.sobre a:hover {
-    color: #E8CFC1!important;
-}
-
-@media(min-width: 768px) {
-    .navbar-brand {
-        text-align: left;
-    }
-}
-
-#navbar-items {
-    justify-content: space-between;
-}
-
-/* hxdsutfgwaurtfgawrufr */
-
-@media(min-width: 768px) {
-    #navbar-items {
-        display: flex;
-        min-width: 0%;
-    }
-}
-
-/* ___________________________________________________ */
-/* FOOTER */
-
-#footer-links-container {
-    border-bottom: 1px solid #705545;
-}
-
-#footer .footer-column {
-    padding: 2em;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-}
-
-@media(min-width:795px) {
-    #footer .footer-column {
-        padding: 5em 2em;
-    }
-}
-
-#footer-links-container h3 {
-    margin-bottom: 25px;
-    text-transform: uppercase;
-}
-
-#footer-links-container li {
-    font-size: .8em;
-    text-align: center;
-}
-
-#footer-links-container li a {
-    text-decoration: none;
-}
-
-#footer-links-container li a:hover {
-    color: #705545;
-}
-
-#footer-center {
-    border-left: 1px solid #f2f2f2;
-    border-right: 1px solid #f2f2f2;
-}
-
-#footer-center h3 {
-    font-weight: 900;
-}
-
-#footer-center .store-phone {
-    color: #b38282;
-    font-weight: bold;
-    font-size: 2rem;
-    margin-top: -15px;
-}
-
-/* _____________________________________________________--- */
-/* NEWS */
-
-#newsletter-container {
-    background-color: #e8cfc1;
-    border-bottom: 1px solid #343a40;
-    text-align: center;
-    padding: 20px;
-}
-
-#news-form {
-    max-width: 600px;
-    margin: 15px auto;
-}
-
-#news-form i {
-    font-size: 1.5em;
-}
-
-#news-form .btn {
-    color: #343a40;
- }
-
-.img-circle img{
-    border-radius: 70%;
-    width: 150px;
-    height: 130px;
-}
-
-.img-fluid {
-    width: 650px;
-    height: 600px;
-}
-
-
-#social-container {
-    margin: 20px auto;
-    text-align: center;
+  }
   
-}
-
-#social-container i {
-    font-size: 1.5em;
-    margin: 10px;
-    cursor: pointer;
-    color: #f2f2f2;
-    transition: .3s;
-}
-
-#social-container i:hover {
-    color: #705545;
-}
-
-/* ___________________________________________- */
-/* COPY */
-
-#copy-container {
+  .sobre a:hover {
+    color: #E8CFC1!important;
+  }
+  
+  #copy-container {
     text-align: center;
     padding: 30px;
-}
+    color: #fff;
+  } 
+  
+  .primary-color1 {
+    color: #705545;
+  }
+  
+ 

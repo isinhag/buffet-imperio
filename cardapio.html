@@ -1,32 +1,28 @@
+<!DOCTYPE html>
 <html lang="pt-br">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Buffet Império - Cardápio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buffet Império - Casamentos</title>
 
-  <!-- Favicon -->
-  <link rel="shortcut icon" href="img/coroa.jpeg" type="image/x-icon">
+    <link rel="shortcut icon" href="img/coroa.jpeg" type="image/x-icon">
 
-  <!-- Google fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <!-- Link (Bootstrap) -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
 
-  <!-- Link (Bootstrap) -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-  
-  <!-- Link para (Bootstrap Icons) -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <!-- Link (Bootstrap JS) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 
-  <!-- Link CSS (Próprio) -->
-  <link rel="stylesheet" href="cardapio.css">
+    <!-- Link para (Bootstrap Icons) -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 
-  <!-- JavaScript Bundle with Popper -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous" defer></script>
-  
+    <!-- Link para (CSS) -->
+    <link rel="stylesheet" href="cardapio.css">
+
+
 </head>
 <body>
+
    <!-- NAVBAR -->
   <!-- Primeira Barra de navegação -->
   <nav class="navbar navbar-expand-lg destaque py-4 px-2" id="navbar">
@@ -35,34 +31,33 @@
       <img src="img/logo.jpg" alt="logo" width="85px" ></img>
       <ul class="navbar-nav mb-2 mb-lg-0 collapse navbar-collapse" id="bottom-navbar">
         <li class="nav-item sobre">
-          <a class="nav-link" href="#">
+          <a class="nav-link" href="home.html">
           Home
           </a>
         </li>
         <li class="nav-item sobre">
-          <a class="nav-link" href="#">
-          Debutantes
-          </a>
-        </li>
-        <li class="nav-item sobre">
-          <a class="nav-link" href="#">
-          Casamentos
+          <a class="nav-link" href="eventos.html">
+          Eventos
           </a>
         </li>
         <li class="nav-item sobre">
           <a class="nav-link" href="cardapio.html">
-          Cardápio
+            Cardápio
           </a>
         </li>
         <li class="nav-item sobre">
-          <a class="nav-link" href="#">
+          <a class="nav-link" href="contato.html">
           Contato
           </a>
         </li>
+        <!-- <li class="nav-item sobre">
+          <a class="nav-link" href="#">
+          Contato
+          </a>
+        </li> -->
       </ul>
 
-      <br>
-
+      
         <!-- Ícones da barra de navegação -->
         <ul class="navbar-nav mb-2 mb-lg-0">
           <li class="nav-item">
@@ -75,42 +70,77 @@
       </div>
 
   </nav>
-  <br>
+
+<br>
+
+<!-- ___________________________________________________________________________________________________-- -->
 
 
-  <!-- Imagem-->
-  <div>
-    <img src="img/menu - cardápio.jpg" alt="Imagem" class="img-fluid" width="650">
+
+<div class="cardapio">
+  <img src="img/cardapio.jpg" class="cardapioimg" alt="">
+  <h2>
+    <br>Nós oferecemos um cardápio de acordo com o gosto do cliente! 
+    
+    Oferecemos também somente a gastronomia, caso você queria
+    
+     fazer a festa em outro lugar. Temos bebidas alcoólicas e não alcoólicas
+     
+    para menores de idade e á gosto do cliente! Contando com entrada, prato principal sobremesa e o bolo. Servimos a sobremesa de acordo com a festa (temática) e sabor do cliente.
+    <br>
+     </h2>
 </div>
 
 
-  
-
-      <div class="row">
-        <p class="secondary-color"> Faça seu orçamento pelo e-mail </p>
-        <!-- Formulario para inscrição na newsletter -->
-        <form class="d-flex" id="news-form">
-          <i class="bi bi-envelope primary-color"></i>
-          <input class="form-control me-2" placeholder="Insira seu e-mail">
-          <button class="btn secondary-bg-color" type="submit">Enviar</button>
-        </form>
-      </div>
-    </div>
-    <!-- Icones de redes sociais -->
-    <div class="col-12" id="social-container" >
-      <i class="bi bi-facebook"></i>
-      <i class="bi bi-instagram"></i>
-      <i class="bi bi-youtube"></i>
-      <i class="bi bi-twitter"></i>
-    </div>
-    </div>
-
-    <!-- Texto de direitos autorais -->
-    <div class="container" id="copy-container">
-      <p>Alguns direitos reservados @2023 <span class="primary-color">Buffet Império</span> - O seu Buffet ideal.</p>
-    </div>
-  </footer>
+<div class="gastronomia">
+  <img src="img/gastronomia.jpg" class="gastronomiaimg" alt="">
   </div>
-</body>
 
-</html>
+
+  <div class="titulo">
+    <img src="img/titulo.jpg" class="tituloimg" alt="">
+    
+
+<div class="osmelhorespratos">
+  <img src="img/osmelhorespratos.jpg"  alt="">
+  <div class="osmelhorespratos">
+
+
+      <h2 class="divul">Para proporcionar momentos inesquecíveis,
+        <br> 
+        nós temos uma equipe gastronômica devidamente treinada que fará você se apaixonar pelo sabor.
+         <br>
+        Desde um menu completo de acordo com o gosto do cliente com entradas,
+        <br> 
+        prato principal e bebidas até um bolo delicioso do jeito que você preferir.</h2>
+            
+  </div>
+
+  </div>
+
+
+
+
+
+<!-- <div>
+<div class="tituloosmelhorespratos">
+  <img src="img/tituloosmelhorespratos.jpg" class="tituloosmelhorespratos" alt="">
+</div>
+
+
+<div class="osmelhorespratos">
+  
+  <img src="img/osmelhorespratos.jpg" class="osmelhorespratosimg" alt="">
+    
+  </div>
+</div> -->
+  <!-- <div class="tituloosmelhorespratos">
+    <img src="img/tituloosmelhorespratos.jpg" class="tituloosmelhorespratos" alt="">
+  </div> -->
+
+  <!-- Texto de direitos autorais -->
+  <div class="container" id="copy-container">
+    <p>Alguns direitos reservados @2023 <span class="primary-color">Buffet Império</span> - O seu local de eventos!</p>
+  </div>
+</footer>
+</body>
