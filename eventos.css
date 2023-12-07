@@ -140,6 +140,7 @@ body {
   color: #E8CFC1!important;
 }
 
+<<<<<<< HEAD
 /* @media(min-width: 768px) {
   .navbar-brand {
       text-align: left;
@@ -268,3 +269,14 @@ body {
 .container {
   background-color:#fff ;
 }
+=======
+#copy-container {
+  text-align: center;
+  padding: 30px;
+  color: #fff;
+} 
+
+.primary-color1 {
+  color: #705545;
+}
+>>>>>>> 72c0d330d1610b229f2d17313c035c46890fe7f1
