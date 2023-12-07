@@ -4,8 +4,89 @@
 
 body {
     background-color: #e8cfc1;
-    color: #fff !important;
+    color: #000000;
 }
+  
+.eventos {
+    background-color: #0d0d0d1d;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+  
+.eventos h2 {
+  margin: 25px;
+}
+  
+.imgflor {
+    width: 120px;
+    align-items: end;
+    padding-top: 1000px;
+}
+
+.sobre-nos h1 {
+    color: white;
+  }
+
+.historia {
+    width: 100%;
+    height: 350px !important;
+    background: rgba(203, 173, 156, 0.692);
+    display: flex;
+    justify-content: space-between;
+}
+
+.borda {
+    background-color: #0d0d0d1d;
+}
+
+.borda .texto {
+    width: 980px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+
+    .historia .primeira-div {
+      background-color: #cfb9ac ;
+      padding-left: 50px;
+    }
+
+    /* .historia .segunda-div {
+        width: 70%;
+        margin-bottom: 80%;
+      }
+
+      .historia .segunda-div img {
+        width: 100%;
+        margin-left: 5%;
+        float: end;
+      } */
+      
+    
+    .historia .terceira-div {
+        /* VJ - Tirar esses 3 estilos  */
+      /* width: 70%; */
+      /* margin-bottom: 80%; */
+      
+      /* display: flex; */
+    
+    }
+
+    .img-float {
+        margin-top: 63px;
+        float: right;
+    }
+    
+    .historia .terceira-div img {
+      width: 20%;
+      margin-left: 1%;
+      /* VJ - Tirar esse float  */
+      /* float: inline-end; */
+    }
+    
 
 .primary-bg-color {
     background-color: #252525;

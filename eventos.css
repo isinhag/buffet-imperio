@@ -8,20 +8,24 @@ body {
 }
 
 .eventos {
-    background-color: #0d0d0d1d;
-    padding: 100px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    
+  background-color: #0d0d0d1d;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.eventos h2 {
+margin: 30px;
 }
 
 .eventosimg {
-    justify-content: center !important; 
-    padding-bottom: 80px;
-    /* padding: 25px; */
-    
+  justify-content: center !important; 
+  padding-bottom: 0px  !important; 
+  /* padding: 25px; */
+  
 }
+
 .casamentosimg {
   justify-content: center !important; 
     padding-bottom: 80px;
