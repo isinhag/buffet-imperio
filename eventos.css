@@ -1,5 +1,5 @@
 * {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'kurale';
 }
 
 body {
@@ -17,12 +17,13 @@ body {
 
 .eventos h2 {
 margin: 30px;
+padding-left: 30px;
 }
 
 .eventosimg {
   justify-content: center !important; 
-  padding-bottom: 0px  !important; 
-  /* padding: 25px; */
+  padding-bottom: px  !important; 
+  padding: 25px;
   
 }
 
@@ -154,3 +155,18 @@ margin: 30px;
   color: #705545;
 }
 
+.deb_ver {
+  width: 355px;
+}
+
+.casamento_img {
+  width: 400px;
+  }
+
+.cha_rev {
+  width: 400px;
+}
+
+.outros_ev {
+  width: 400px;
+}
