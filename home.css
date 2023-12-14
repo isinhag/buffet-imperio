@@ -101,11 +101,11 @@ body {
 }
 
 .destaque3 {
-    background-color: #E8CFC1;
+    background-color: #b98d737a;
 }
 
 .destaque4 {
-    background-color: #E8CFC1;
+    background-color: #76371166;
 }
 
 .secondary-bg-color {
@@ -409,13 +409,14 @@ body {
     padding: 0;
 }
 
-/* Estilos para titulo da seção */
+/* Estilos para titulo da seção  */
 .title {
     text-transform: uppercase;
     font-weight: 900;
     font-size: 2.5em;
     margin-bottom: 1em;
     text-align: center;
+    padding-left: 52px;
 }
 
 @media(min-width:768px) {
@@ -467,14 +468,14 @@ body {
 
 /* Estilos para os botões de compra */
 .btn {
-    background-color: #d3ad97;
-    border-color: #d3ad97;
+    background-color: #76371178;
+    border-color: #76371100;
 }
 
 /* Estilos de hover para os botões de compra */
 .btn:hover {
-    background-color: #ad8b77;
-    border-color: #ad8b77;
+    background-color: #705545;
+    border-color: #705545;
 }
 
 /* ____________________________________________________ */
@@ -803,3 +804,69 @@ body {
         font-size: 4em;
     }
 }
+* {
+    box-sizing: border-box;
+  }
+  
+  .slide-container {
+    width: 1000px;
+    /* height: 200px; */
+    position: relative;
+    margin: auto;
+  }
+  
+  .slide {
+    display: none;
+  }
+  
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  .caption {
+    text-align: center;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    color: white;
+    font-size: 15px;
+    padding: 8px 0;
+    background-color: black;
+    opacity: 0.8;
+  }
+ 

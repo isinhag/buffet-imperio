@@ -1,0 +1,120 @@
+* {
+    font-family: 'kurale';
+  }
+  
+  
+  body {
+    background-color: #e8cfc1;
+    color: #000000;
+  }
+  
+  .eventos {
+    background-color: #0d0d0d1d;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .orca {
+    width: 40%;
+    height: 50px;
+    font-size: 20px;
+    background-color: #a97c62af;
+    border-radius: 30px;
+    border: none;
+  }
+  .orca:hover {
+  
+    background-color: #e0b49d;
+  
+  }
+  
+  .primary-bg-color {
+    background-color: #252525;
+  }
+  
+  .destaque {
+    background-color: #241d1d;
+  }
+  
+  .secondary-bg-color {
+    background-color: #0d0d0d;
+  }
+  
+  .light-bg-color {
+    background-color: #0d0d0d;
+  }
+  
+  .dark-bg-color {
+    background-color: #0d0d0d;
+  }
+  
+  .primary-color {
+    color: #E8CFC1;
+  }
+  
+  .secondary-color {
+    color: #E8CFC1;
+  }
+  
+  .light-color {
+    color: #0d0d0d;
+  }
+  
+  #navbar .navbar-nav {
+    flex-direction: row;
+    justify-content:space-around;
+  }
+  
+  #navbar .navbar-nav li {
+    margin-left: 1em;
+  }
+  
+  #navbar a,
+  #navbar button {
+    color: #fff;
+  }
+  
+  #navbar li {
+    position: relative;
+  }
+  
+  #navbar i {
+    font-size: 20px;
+  }
+  
+  #navbar i:hover {
+    color: #E8CFC1;
+  }
+  
+  .nav-link {
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  
+  .navbar-brand {
+    font-weight: 700;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .sobre a:hover {
+    color: #E8CFC1!important;
+    
+  }
+  
+  #copy-container {
+    text-align: center;
+    padding: 30px;
+    color: #fff;
+  } 
+  
+  #copy-container p {
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .primary-color1 {
+    color: #705545;
+    font-family: 'Montserrat', sans-serif;
+  }
