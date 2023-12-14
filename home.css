@@ -38,6 +38,7 @@ body {
     justify-content: space-between;
 }
 
+
 .borda {
     background-color: #0d0d0d1d;
 }
@@ -194,6 +195,18 @@ body {
 
 #navbar-items {
     justify-content: space-between;
+}
+
+.tituloimg {
+  
+    background-color: 
+    #e8cfc1;
+    display: center;
+    justify-content: center !important;
+      padding-bottom: 3px;
+      /* height: 120px; */
+      width: 751px;
+      padding-left: 250px;
 }
 
 /* hxdsutfgwaurtfgawrufr */
