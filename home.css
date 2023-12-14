@@ -5,6 +5,7 @@
 body {
     background-color: #e8cfc1;
     color: #000000;
+    overflow-x: hidden;
 }
   
 .eventos {
