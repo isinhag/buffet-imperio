@@ -16,6 +16,23 @@
     justify-content: center;
   }
 
+  .eventosimg {
+    padding-left: 343px !important;
+    width: 1101px !important;
+  }
+
+  .eventos h2{
+    padding-left: 375px;
+  }
+
+  .casamentosimg {
+    padding-left: 456px;
+  }
+
+  .teste {
+    padding-left: 365px;
+  }
+
   .orca {
     width: 40%;
     height: 50px;
@@ -23,6 +40,7 @@
     background-color: #a97c62af;
     border-radius: 30px;
     border: none;
+    
   }
   .orca:hover {
   
@@ -118,3 +136,5 @@
     color: #705545;
     font-family: 'Montserrat', sans-serif;
   }
+
+ 

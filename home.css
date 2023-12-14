@@ -103,11 +103,11 @@ body {
 }
 
 .destaque3 {
-    background-color: #b98d737a;
+    background-color: #ac87717a;
 }
 
 .destaque4 {
-    background-color: #76371166;
+    background-color: #5c2f1566;
 }
 
 .secondary-bg-color {
@@ -482,7 +482,7 @@ body {
 
 /* Estilos para os botões de compra */
 .btn {
-    background-color: #76371178;
+    background-color: #77482c78;
     border-color: #76371100;
 }
 
@@ -721,6 +721,7 @@ body {
 #copy-container {
     text-align: center;
     padding: 30px;
+    color: #fff;
 }
 
 /* ______________________________________________________________________________ */
