@@ -101,11 +101,11 @@ body {
 }
 
 .destaque3 {
-    background-color: #E8CFC1;
+    background-color: #b98d737a;
 }
 
 .destaque4 {
-    background-color: #E8CFC1;
+    background-color: #76371166;
 }
 
 .secondary-bg-color {
@@ -409,13 +409,14 @@ body {
     padding: 0;
 }
 
-/* Estilos para titulo da seção */
+/* Estilos para titulo da seção  */
 .title {
     text-transform: uppercase;
     font-weight: 900;
     font-size: 2.5em;
     margin-bottom: 1em;
     text-align: center;
+    padding-left: 52px;
 }
 
 @media(min-width:768px) {
@@ -467,14 +468,14 @@ body {
 
 /* Estilos para os botões de compra */
 .btn {
-    background-color: #d3ad97;
-    border-color: #d3ad97;
+    background-color: #76371178;
+    border-color: #76371100;
 }
 
 /* Estilos de hover para os botões de compra */
 .btn:hover {
-    background-color: #ad8b77;
-    border-color: #ad8b77;
+    background-color: #705545;
+    border-color: #705545;
 }
 
 /* ____________________________________________________ */

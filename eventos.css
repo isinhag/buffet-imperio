@@ -2,6 +2,7 @@
   font-family: 'kurale';
 }
 
+
 body {
   background-color: #e8cfc1;
   color: #000000;
@@ -132,7 +133,9 @@ padding-left: 30px;
   color: #E8CFC1;
 }
 
-
+.nav-link {
+  font-family: 'Montserrat', sans-serif;
+}
 
 
 .navbar-brand {
@@ -143,6 +146,7 @@ padding-left: 30px;
 
 .sobre a:hover {
   color: #E8CFC1!important;
+  
 }
 
 #copy-container {
@@ -151,8 +155,13 @@ padding-left: 30px;
   color: #fff;
 } 
 
+#copy-container p {
+  font-family: 'Montserrat', sans-serif;
+}
+
 .primary-color1 {
   color: #705545;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .deb_ver {

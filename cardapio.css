@@ -3,7 +3,7 @@
   }
   
   body {
-    background-color: #fae7dd;
+    background-color: #e8cfc1;
     color: #000000;
   }
   
@@ -176,7 +176,6 @@
   
   
   
-  
   .navbar-brand {
     font-weight: 700;
     width: 100%;
@@ -192,11 +191,7 @@
     padding: 30px;
     color: #fff;
   } 
-  
-  .primary-color1 {
-    color: #705545;
-  }
-  
+
   * {
     box-sizing: border-box;
   }
